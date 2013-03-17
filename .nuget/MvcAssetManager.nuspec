@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>MvcAssetManager</id>
+		<version>1.0.0</version>
+		<title>Mvc Asset Manager</title>
+		<authors>Kelly Stuard</authors>
+		<owners>Kelly Stuard</owners>
+		<description>
+			Very simple script management framework. The focus is on quickly delivering the scripts needed, to the page, 
+			while allowing for a powerful, set of pre-built and extensible transformations to be done to meet any user 
+			scenario.
+		</description>
+		<releaseNotes>
+		</releaseNotes>
+		<summary>
+			ASP.Net MVC CSS and Javascript Asset Manager
+		</summary>
+		<language>en-US</language>
+		<projectUrl>https://nuget.org/packages/MvcAssetManager</projectUrl>
+		<iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+		<copyright>Copyright Kelly Stuard 2013</copyright>
+		<dependencies>
+			<group targetFramework="net45">
+				<dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+				<dependency id="Microsoft.AspNet.Razor" version="2.0.20715.0" />
+				<dependency id="Microsoft.AspNet.WebPages" version="2.0.20710.0" />
+				<dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+				<dependency id="WebActivatorEx" version="2.0.1" />
+			</group>
+		</dependencies>
+		<references>
+			<reference file="MvcAssetManager.dll" />
+		</references>
+		<tags>ASP.NET MVC Asset Manager Javascript Script CSS Style Sheet</tags>
+	</metadata>
+	<files>
+		<file src="..\MvcAssetManager\bin\Release\MvcAssetManager.dll" target="lib\net45\MvcAssetManager.dll" />
+		<!--<file src="tools\" target="tools" />-->
+		<file src="content\" target="content" />
+	</files>
+</package>
